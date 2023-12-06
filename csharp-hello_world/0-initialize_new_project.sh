@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-dotnet --version
+dotnet new console --output 0-new_project/
