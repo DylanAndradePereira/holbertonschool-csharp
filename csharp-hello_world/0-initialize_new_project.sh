@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-dotnet build
+dotnet new console 0-new_project/
