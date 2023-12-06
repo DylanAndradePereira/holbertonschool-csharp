@@ -6,7 +6,7 @@ namespace _3_writeline
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("jpp");
+            Console.WriteLine("jpfdsp");
         }
     }
 }
