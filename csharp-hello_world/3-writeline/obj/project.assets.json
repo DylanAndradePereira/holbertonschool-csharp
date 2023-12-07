@@ -928,11 +928,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dylan\\OneDrive\\Bureau\\projet ARVR\\1\\holbertonschool-csharp\\csharp-hello_world\\5-print_float\\5-print_float.csproj",
-      "projectName": "5-print_float",
-      "projectPath": "C:\\Users\\Dylan\\OneDrive\\Bureau\\projet ARVR\\1\\holbertonschool-csharp\\csharp-hello_world\\5-print_float\\5-print_float.csproj",
+      "projectUniqueName": "C:\\Users\\Dylan\\OneDrive\\Bureau\\projet ARVR\\1\\holbertonschool-csharp\\csharp-hello_world\\3-writeline\\3-writeline.csproj",
+      "projectName": "3-writeline",
+      "projectPath": "C:\\Users\\Dylan\\OneDrive\\Bureau\\projet ARVR\\1\\holbertonschool-csharp\\csharp-hello_world\\3-writeline\\3-writeline.csproj",
       "packagesPath": "C:\\Users\\Dylan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dylan\\OneDrive\\Bureau\\projet ARVR\\1\\holbertonschool-csharp\\csharp-hello_world\\5-print_float\\obj\\",
+      "outputPath": "C:\\Users\\Dylan\\OneDrive\\Bureau\\projet ARVR\\1\\holbertonschool-csharp\\csharp-hello_world\\3-writeline\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
