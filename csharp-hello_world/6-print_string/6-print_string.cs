@@ -6,6 +6,6 @@ class Program
 	{
 		string str = "Holberton School";
 		Console.WriteLine(str,str,str);
-    Console.WriteLine(str[8])
+    Console.WriteLine(str[8]);
   }
 }
