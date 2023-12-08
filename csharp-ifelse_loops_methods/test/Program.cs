@@ -4,14 +4,14 @@ class Program
 {
     static void Main(string[] args)
     {
-       for (int i = 0 ; i <= 99; i++)
+        for (int i = 0 ; i < 89 ; i++)
         {
-            if (i == 99 )
+            Console.Write("{0}, ",i);
+            if (i != 57)
             {
-                Console.Write("{0:D2}", i, i);
-                break;
+                Console.Write(", ");
+
             }
-            Console.Write("{0:D2}, ", i, i);
         }
     }
 }
