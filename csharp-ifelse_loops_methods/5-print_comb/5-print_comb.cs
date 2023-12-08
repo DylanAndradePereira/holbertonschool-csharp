@@ -8,10 +8,10 @@ class Program
         {
             if (i == 99 )
             {
-                Console.Write("{0:D2}", i, i);
+                Console.Write("{0:D2}", i);
                 break;
             }
-            Console.Write("{0:D2}, ", i, i);
+            Console.Write("{0:D2}, ", i);
         }
     }
 }
