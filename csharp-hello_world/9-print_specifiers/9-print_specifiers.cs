@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections;
 using System.Globalization;
 class Program
 {
@@ -9,6 +8,5 @@ class Program
 		double currency = 98765.4321;
 		Console.WriteLine("Percent: {0}",String.Format("Value: {0:P2}.", percent));
 		Console.WriteLine("Currency: {0}",currency.ToString("C", CultureInfo.CreateSpecificCulture("en-US")));
-
 	}
 }
