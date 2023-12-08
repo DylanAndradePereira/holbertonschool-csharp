@@ -6,7 +6,7 @@ class Program
     {
         for (char alphabet = 'a'; alphabet <= 'z'; alphabet++)
         {
-            Console.Write(alphabet + " - ");
+            Console.Write(alphabet);
         }
     }
 }
