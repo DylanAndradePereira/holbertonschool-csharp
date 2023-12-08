@@ -6,6 +6,7 @@ class Program
 	{
 		double percent = .7553;
 		double currency = 98765.4321;
-		DisplayPercentage((double)percent / currency);
+		percent = percent / currency;
+		Console.WriteLine("Percent: {0}",percent);
 	}
 }
