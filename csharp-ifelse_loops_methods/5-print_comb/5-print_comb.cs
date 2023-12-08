@@ -8,7 +8,7 @@ class Program
         {
             if (i == 99)
             {
-                Console.Write("{0:D2}\n", i);
+                Console.WriteLine("{0:D2}", i);
             }
             Console.Write("{0:D2}, ", i);
         }
