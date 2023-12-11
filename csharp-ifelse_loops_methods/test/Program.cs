@@ -10,7 +10,6 @@ class Program
             if (i != 57)
             {
                 Console.Write(", ");
-
             }
         }
     }
