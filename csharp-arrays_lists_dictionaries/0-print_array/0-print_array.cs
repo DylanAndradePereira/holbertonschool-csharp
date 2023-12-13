@@ -12,7 +12,8 @@ public class Array
 
             return newArray;
         }
-        else if (size < 0)
+        
+        if (size < 0)
         {
             Console.Write("Size cannot be negative");
             return null;
