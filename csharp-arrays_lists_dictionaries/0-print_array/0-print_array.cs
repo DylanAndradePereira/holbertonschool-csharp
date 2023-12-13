@@ -14,13 +14,13 @@ public class Array
         }
         else if (size < 0)
         {
-            Console.WriteLine("Size cannot be negative");
+            Console.Write("Size cannot be negative");
             return null;
         }
         else{
             for (int i = 0; i < size; i++)
             {
-                Console.WriteLine(i);
+                Console.Write(i);
                 newArray[i] = i;
             }
             return newArray;
