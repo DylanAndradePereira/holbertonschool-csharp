@@ -19,14 +19,11 @@ public class Array
                 }
 
             }  
-        }else
-        {
-            Console.WriteLine("");
         }
           
         if (array == null)
         {
-            Console.WriteLine("");
+            Console.WriteLine("f");
         }
     }
 }
