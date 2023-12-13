@@ -9,7 +9,7 @@ public class Array
         {
             Console.Write("");
 
-            return;
+            return newArray;
         }
         else if (size < 0)
         {
