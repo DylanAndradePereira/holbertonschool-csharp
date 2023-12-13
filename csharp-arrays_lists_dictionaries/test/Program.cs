@@ -10,7 +10,7 @@ class Program
         int[] array4 = {98, -10, 0, 972, -42};
 
         Array.Reverse(array1);
-        // Array.Reverse(array2);
+        Array.Reverse(array2);
         Array.Reverse(array3);
         Array.Reverse(array4);
     }

@@ -17,11 +17,16 @@ public class Array
                     Console.Write("{0} ",array[i]);
                     
                 }
+
             }  
         }else
         {
             Console.WriteLine("");
         }
           
+        if (array == null)
+        {
+            Console.WriteLine("");
+        }
     }
 }
