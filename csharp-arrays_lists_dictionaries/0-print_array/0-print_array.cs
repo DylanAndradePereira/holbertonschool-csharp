@@ -20,7 +20,7 @@ public class Array
         else{
             for (int i = 0; i < size; i++)
             {
-                if (i == size)
+                if (i == size-1)
                 {
                     Console.WriteLine(i);
                 }else
