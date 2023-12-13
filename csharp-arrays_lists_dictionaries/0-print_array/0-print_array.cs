@@ -15,7 +15,7 @@ public class Array
         
         if (size < 0)
         {
-            Console.WriteLine("Size cannot be negative");
+            Console.WriteLine("Size ct be negative");
             return null;
         }
         else{
