@@ -20,7 +20,13 @@ public class Array
         else{
             for (int i = 0; i < size; i++)
             {
-                Console.Write(i);
+                if (i == size)
+                {
+                    Console.WriteLine(i);
+                }else
+                {
+                    Console.WriteLine("{0} ",i);
+                }
                 newArray[i] = i;
             }
             return newArray;
