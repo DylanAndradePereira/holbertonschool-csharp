@@ -9,6 +9,11 @@ public class Array
             Console.WriteLine("Index out of range");
             return array;
         }
+        if (index > array.Length)
+        {
+            Console.WriteLine("Index out of range");
+            return array;
+        }
         
         array[index] = n;
         return array;
