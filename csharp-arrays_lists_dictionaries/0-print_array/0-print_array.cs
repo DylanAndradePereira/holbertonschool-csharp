@@ -22,7 +22,7 @@ public class Array
             {
                 if (i == size)
                 {
-                    Console.Write(i);
+                    Console.WriteLine(i);
                 }else
                 {
                     Console.Write("{0} ",i);
