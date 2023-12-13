@@ -6,12 +6,12 @@ public class Array
     {
         if (index < 0)
         {
-            Console.WriteLine("Index out of range");
+            Console.WriteLine("<Index out of range");
             return array;
         }
         if (index > array.Length)
         {
-            Console.WriteLine("Index out of range");
+            Console.WriteLine(">Index out of range");
             return array;
         }
         
