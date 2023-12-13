@@ -4,7 +4,7 @@ public class Array
 {
     public static int[] CreatePrint(int size)
     {
-        int[] array1 = new int[size];
+        int[] newArray = new int[size];
         
         if (size == 0)
         {
