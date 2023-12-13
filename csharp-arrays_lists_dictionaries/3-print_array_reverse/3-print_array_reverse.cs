@@ -18,6 +18,9 @@ public class Array
                     
                 }
             }  
+        }else
+        {
+            Console.WriteLine("");
         }
           
     }
