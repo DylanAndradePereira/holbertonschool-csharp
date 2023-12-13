@@ -10,7 +10,7 @@ public class Array
         }
         else
         {
-            Console.WriteLine("Index out of range")
+            Console.WriteLine("Index out of range");
             return -1;
         }
     }
