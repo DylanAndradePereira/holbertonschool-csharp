@@ -4,7 +4,7 @@ public class Array
 {
     public static int elementAt(int[] array, int index)
     {
-        if (array[index])
+        if (index < array.Length)
         {
             return array[index];  
         }
