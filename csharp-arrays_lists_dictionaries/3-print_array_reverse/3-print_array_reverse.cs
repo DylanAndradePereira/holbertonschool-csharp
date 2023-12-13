@@ -21,12 +21,12 @@ public class Array
             }  
         }else
         {
-            Console.WriteLine("");
+            Console.WriteLine("1");
         }
           
         if (array == null)
         {
-            Console.WriteLine("");
+            Console.WriteLine("2");
         }
     }
 }
