@@ -22,10 +22,10 @@ public class Array
             {
                 if (i == size)
                 {
-                    Console.WriteLine(i);
+                    Console.Write(i);
                 }else
                 {
-                    Console.WriteLine("{0} ",i);
+                    Console.Write("{0} ",i);
                 }
                 newArray[i] = i;
             }
