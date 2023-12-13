@@ -1,28 +1,14 @@
 ﻿using System;
 
-public class Array
+class Program
 {
-    public static int[] CreatePrint(int size)
+    static void Main(string[] args)
     {
-        int[] newArray;
-        
-        for (int i = 0; i < size; i++)
-        {
-            newArray[i] = i;
-        }
-        return newArray;
+        int[] array = {-9, 2, 0, 8, -1, 12, -27, 3, 17, -4};
+
+        Console.WriteLine("Element at index {0} is {1}", 2, Array.elementAt(array, 2));
+        Console.WriteLine("Element at index {0} is {1}", 0, Array.elementAt(array, 0));
+        Console.WriteLine("Element at index {0} is {1}", 9, Array.elementAt(array, 8));
+        Array.elementAt(array, -7);
     }
 }
-
-int[] newArray;
-
-    newArray = Array.CreatePrint(10);
-    Console.WriteLine("Array Length: " + newArray.Length);
-    Console.WriteLine("----------------");
-    newArray = Array.CreatePrint(16);
-    Console.WriteLine("Array Length: " + newArray.Length);
-    Console.WriteLine("----------------");
-    newArray = Array.CreatePrint(0);
-    Console.WriteLine("Array Length: " + newArray.Length);
-    Console.WriteLine("----------------");
-    newArray = Array.CreatePrint(-10);
