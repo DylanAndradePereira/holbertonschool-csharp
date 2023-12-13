@@ -4,13 +4,13 @@ public class Array
 {
     public static int[] CreatePrint(int size)
     {
-        int[] newArray;
-
+        int[] array1 = new int[size];
+        
         if (size == 0)
         {
             Console.Write("");
 
-            return null;
+            return newArray;
         }
         else if (size < 0)
         {
@@ -22,7 +22,7 @@ public class Array
             {
                 newArray[i] = i;
             }
-            return null;
+            return newArray;
         }
         
     }
