@@ -1,4 +1,7 @@
-﻿class Program
+﻿using System;
+using System.Collections.Generic;
+
+class Program
 {
     static void Main(string[] args)
     {
@@ -6,8 +9,8 @@
         string key;
         string value;
 
-        key = "school";
-        value = "Holberton";
+        key = "state";
+        value = "California";
 
         Dictionary.AddKeyValue(myDict, key, value);
 
@@ -15,9 +18,9 @@
             Console.WriteLine("{0}: {1}", entry.Key, entry.Value);
 
         Console.WriteLine("------------------");
-
-        key = "city";
-        value = "San Francisco";
+        
+        key = "state";
+        value = "New York";
 
         Dictionary.AddKeyValue(myDict, key, value);
 
