@@ -3,13 +3,13 @@ using System.Collections.Generic;
 
 class Dictionary
 {
-    public static Dictionary<string, int> MultiplyBy2(Dictionary<string, int> myDict)
+    public static int NumberOfKeys(Dictionary<string, string> myDict)
     {
-        Dictionary<string, int> my_dict = new Dictionary<string, int>();
-        foreach (KeyValuePair<string, int> kvp in myDict)
+        int count = 0;
+        foreach (string key in myDict.Keys)
         {
-            my_dict[kvp.Key] = kvp.Value * 2;
+            count++;
         }
-        return my_dict;
+        return (count);
     }
 }
