@@ -20,10 +20,15 @@ public class Array
 
             }  
         }
+
+        if (array.Length == 0)
+        {
+            Console.WriteLine("");
+        }
           
         if (array == null)
         {
-            Console.WriteLine("f");
+            Console.WriteLine("");
         }
     }
 }

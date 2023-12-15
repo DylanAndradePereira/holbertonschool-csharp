@@ -4,7 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        int[] array = null;
+        int[] array = {};
 
         Array.Reverse(array);
     }
