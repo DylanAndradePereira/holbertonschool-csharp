@@ -2,33 +2,15 @@ using System;
 
 public class Array
 {
-    public static void Reverse(int[] array)
+    public static List<int> CreatePrint(int size)
     {
-        if (array != null)
-        {
-           for (int i = array.Length-1; i >= 0; i--)
-            {
-                if (i == 0)
-                {
-                    Console.WriteLine("{0}",array[i]);
-        
-                }else
-                {
-                    Console.Write("{0} ",array[i]);
-                    
-                }
+        List<int> list = new List<int>();
 
-            }  
+        for (int i = 0; i < size; i++)
+        {
+            list.Add(i);
         }
 
-        if (array.Length == 0)
-        {
-            Console.WriteLine("");
-        }
-          
-        if (array == null)
-        {
-            Console.WriteLine("");
-        }
+        return list;
     }
 }
