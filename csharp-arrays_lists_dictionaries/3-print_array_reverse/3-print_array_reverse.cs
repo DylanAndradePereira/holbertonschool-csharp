@@ -4,31 +4,24 @@ public class Array
 {
     public static void Reverse(int[] array)
     {
-        if (array != null)
+        int i;
+
+        if (array == null || array.Length == 0)
         {
-           for (int i = array.Length-1; i >= 0; i--)
+            Console.WriteLine();
+            return;
+        }
+        for (i = array.Length - 1; i >= 0; i--)
+        {
+            Console.Write(array[i]);
+            if (i != 0)
             {
-                if (i == 0)
-                {
-                    Console.WriteLine("{0}",array[i]);
-        
-                }else
-                {
-                    Console.Write("{0} ",array[i]);
-                    
-                }
-
-            }  
-        }
-
-        if (array.Length == 0)
-        {
-            Console.WriteLine("");
-        }
-          
-        if (array == null)
-        {
-            Console.WriteLine("");
+                Console.Write(' ');
+            }
+            else
+            {
+                Console.WriteLine();
+            }
         }
     }
 }
