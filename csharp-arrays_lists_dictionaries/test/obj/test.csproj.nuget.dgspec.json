@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dylan\\OneDrive\\Bureau\\projet ARVR\\1\\holbertonschool-csharp\\csharp-arrays_lists_dictionaries\\test\\test.csproj": {}
+    "C:\\Users\\Dylan\\OneDrive\\Bureau\\projet ARVR\\holbertonschool-csharp\\csharp-arrays_lists_dictionaries\\test\\test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dylan\\OneDrive\\Bureau\\projet ARVR\\1\\holbertonschool-csharp\\csharp-arrays_lists_dictionaries\\test\\test.csproj": {
+    "C:\\Users\\Dylan\\OneDrive\\Bureau\\projet ARVR\\holbertonschool-csharp\\csharp-arrays_lists_dictionaries\\test\\test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dylan\\OneDrive\\Bureau\\projet ARVR\\1\\holbertonschool-csharp\\csharp-arrays_lists_dictionaries\\test\\test.csproj",
+        "projectUniqueName": "C:\\Users\\Dylan\\OneDrive\\Bureau\\projet ARVR\\holbertonschool-csharp\\csharp-arrays_lists_dictionaries\\test\\test.csproj",
         "projectName": "test",
-        "projectPath": "C:\\Users\\Dylan\\OneDrive\\Bureau\\projet ARVR\\1\\holbertonschool-csharp\\csharp-arrays_lists_dictionaries\\test\\test.csproj",
+        "projectPath": "C:\\Users\\Dylan\\OneDrive\\Bureau\\projet ARVR\\holbertonschool-csharp\\csharp-arrays_lists_dictionaries\\test\\test.csproj",
         "packagesPath": "C:\\Users\\Dylan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dylan\\OneDrive\\Bureau\\projet ARVR\\1\\holbertonschool-csharp\\csharp-arrays_lists_dictionaries\\test\\obj\\",
+        "outputPath": "C:\\Users\\Dylan\\OneDrive\\Bureau\\projet ARVR\\holbertonschool-csharp\\csharp-arrays_lists_dictionaries\\test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

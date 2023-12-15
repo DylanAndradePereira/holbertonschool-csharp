@@ -922,21 +922,17 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dylan\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Dylan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dylan\\OneDrive\\Bureau\\projet ARVR\\1\\holbertonschool-csharp\\csharp-hello_world\\3-writeline\\3-writeline.csproj",
+      "projectUniqueName": "C:\\Users\\Dylan\\OneDrive\\Bureau\\projet ARVR\\holbertonschool-csharp\\csharp-hello_world\\3-writeline\\3-writeline.csproj",
       "projectName": "3-writeline",
-      "projectPath": "C:\\Users\\Dylan\\OneDrive\\Bureau\\projet ARVR\\1\\holbertonschool-csharp\\csharp-hello_world\\3-writeline\\3-writeline.csproj",
+      "projectPath": "C:\\Users\\Dylan\\OneDrive\\Bureau\\projet ARVR\\holbertonschool-csharp\\csharp-hello_world\\3-writeline\\3-writeline.csproj",
       "packagesPath": "C:\\Users\\Dylan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dylan\\OneDrive\\Bureau\\projet ARVR\\1\\holbertonschool-csharp\\csharp-hello_world\\3-writeline\\obj\\",
+      "outputPath": "C:\\Users\\Dylan\\OneDrive\\Bureau\\projet ARVR\\holbertonschool-csharp\\csharp-hello_world\\3-writeline\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
         "C:\\Users\\Dylan\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],

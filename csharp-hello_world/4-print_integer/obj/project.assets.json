@@ -922,21 +922,17 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dylan\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Dylan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dylan\\OneDrive\\Bureau\\projet ARVR\\1\\holbertonschool-csharp\\csharp-hello_world\\4-print_integer\\4-print_integer.csproj",
+      "projectUniqueName": "C:\\Users\\Dylan\\OneDrive\\Bureau\\projet ARVR\\holbertonschool-csharp\\csharp-hello_world\\4-print_integer\\4-print_integer.csproj",
       "projectName": "4-print_integer",
-      "projectPath": "C:\\Users\\Dylan\\OneDrive\\Bureau\\projet ARVR\\1\\holbertonschool-csharp\\csharp-hello_world\\4-print_integer\\4-print_integer.csproj",
+      "projectPath": "C:\\Users\\Dylan\\OneDrive\\Bureau\\projet ARVR\\holbertonschool-csharp\\csharp-hello_world\\4-print_integer\\4-print_integer.csproj",
       "packagesPath": "C:\\Users\\Dylan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dylan\\OneDrive\\Bureau\\projet ARVR\\1\\holbertonschool-csharp\\csharp-hello_world\\4-print_integer\\obj\\",
+      "outputPath": "C:\\Users\\Dylan\\OneDrive\\Bureau\\projet ARVR\\holbertonschool-csharp\\csharp-hello_world\\4-print_integer\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
         "C:\\Users\\Dylan\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
