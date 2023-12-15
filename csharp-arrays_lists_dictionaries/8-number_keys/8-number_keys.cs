@@ -1,17 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 
-class List
+class Dictionary
 {
     public static int NumberOfKeys(Dictionary<string, string> myDict)
     {
-        int i = 0;
-
+        int count = 0;
         foreach (string key in myDict.Keys)
         {
-            i++;
+            count++;
         }
-
-        return i;
+        return (count);
     }
 }
