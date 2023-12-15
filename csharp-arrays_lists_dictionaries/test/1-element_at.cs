@@ -2,24 +2,13 @@ using System;
 using System.Collections.Generic;
 class List
 {
-    public static List<bool> DivisibleBy2(List<int> myList)
+    public static List<int> DeleteAt(List<int> myList, int index)
     {
 
-        List<bool> result = new List<bool>();
+        myList.RemoveRange(index+1, index);
 
-        foreach (int element in myList)
-        {
-            if (element % 2 == 0)
-            {
-                result.Add(true);
-            }else
-            {
-                result.Add(false);
+        return myList;
 
-            }
-        }
-
-        return result;
     }
 
 }
