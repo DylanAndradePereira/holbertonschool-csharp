@@ -10,6 +10,6 @@ class Dictionary
         {
             count++;
         }
-        return (count);
+        return (myDict);
     }
 }

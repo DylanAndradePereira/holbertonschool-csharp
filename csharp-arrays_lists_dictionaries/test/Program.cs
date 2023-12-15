@@ -1,16 +1,27 @@
-﻿using System;
-using System.Collections.Generic;
-
-class Program
+﻿class Program
 {
     static void Main(string[] args)
     {
         Dictionary<string, string> myDict = new Dictionary<string, string>();
+        string key;
+        string value;
 
-        myDict.Add("language", "C");
-        myDict.Add("track", "low level");
-        myDict.Add("school", "Holberton");
+        key = "school";
+        value = "Holberton";
 
-        Console.WriteLine("Number of keys: {0}", Dictionary.NumberOfKeys(myDict));
+        Dictionary.AddKeyValue(myDict, key, value);
+
+        foreach (KeyValuePair<string, string> entry in myDict)
+            Console.WriteLine("{0}: {1}", entry.Key, entry.Value);
+
+        Console.WriteLine("------------------");
+
+        key = "city";
+        value = "San Francisco";
+
+        Dictionary.AddKeyValue(myDict, key, value);
+
+        foreach (KeyValuePair<string, string> entry in myDict)
+            Console.WriteLine("{0}: {1}", entry.Key, entry.Value);
     }
 }
