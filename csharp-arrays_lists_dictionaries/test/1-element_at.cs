@@ -1,22 +1,22 @@
-using System;
-using System.Collections.Generic;
-
-public class Array
+class List
 {
     public static int MaxInteger(List<int> myList)
     {
-        int i = 0;
-
-        myList.ForEach(delegate(int item))
+        if (myList.Count == 0)
         {
-            
-            if (item > i)
-            {
-                i = item;
-            }
-
+            Console.WriteLine("List is empty");
+            return (-1);
         }
 
-        return i;
+        int max = myList[0];
+
+        foreach (int element in myList)
+        {
+            if (max < element)
+            {
+                max = element;
+            }
+        }
+        return max;
     }
 }
