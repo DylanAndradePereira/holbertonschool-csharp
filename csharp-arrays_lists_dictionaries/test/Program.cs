@@ -1,12 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-
-class Program
+﻿class Program
 {
     static void Main(string[] args)
     {
-        List<int> myList = new List<int>() {98, -10, 1024, -727, -98, 0, 3200, 972, 12, 50, 8};
+        List<int> myList = new List<int>() {1, 2, 3, 4, 5, 6};
+        List<bool> result = new List<bool>();
+        int i;
 
-        Console.WriteLine("Max: " + List.MaxInteger(myList));
+        result = List.DivisibleBy2(myList);
+
+        for (i = 0; i < myList.Count; i++)
+        {
+            if (result[i] == true)
+                Console.WriteLine(myList[i] + " is divisible by 2");
+            else
+                Console.WriteLine(myList[i] + " is not divisible by 2");
+        }
     }
 }
