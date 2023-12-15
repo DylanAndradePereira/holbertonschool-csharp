@@ -922,7 +922,8 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dylan\\.nuget\\packages\\": {}
+    "C:\\Users\\Dylan\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
@@ -933,6 +934,9 @@
       "packagesPath": "C:\\Users\\Dylan\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Dylan\\OneDrive\\Bureau\\projet ARVR\\holbertonschool-csharp\\csharp-hello_world\\3-writeline\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
         "C:\\Users\\Dylan\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
