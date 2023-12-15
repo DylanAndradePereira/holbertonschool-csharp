@@ -2,28 +2,23 @@
 {
     static void Main(string[] args)
     {
-        Dictionary<string, string> myDict = new Dictionary<string, string>();
-        Dictionary<string, string> newDict = new Dictionary<string, string>();
+        Dictionary<string, int> myDict = new Dictionary<string, int>();
+        Dictionary<string, int> newDict = new Dictionary<string, int>();
 
-        myDict.Add("language", "C");
-        myDict.Add("track", "low level");
-        myDict.Add("school", "Holberton");
-        myDict.Add("address", "972 Mission St.");
-        myDict.Add("city", "San Francisco");
+        myDict.Add("John", 12);
+        myDict.Add("Alex", 8);
+        myDict.Add("Bob", 14);
+        myDict.Add("Mary", 14);
+        myDict.Add("Molly", 16);
 
-        foreach (KeyValuePair<string, string> entry in myDict)
+        newDict = Dictionary.MultiplyBy2(myDict);
+
+        foreach (KeyValuePair<string, int> entry in myDict)
             Console.WriteLine("{0}: {1}", entry.Key, entry.Value);
 
-        Console.WriteLine("----------------");
+        Console.WriteLine("--------------------");
 
-        newDict = Dictionary.DeleteKeyValue(myDict, "track");
-
-        foreach (KeyValuePair<string, string> entry in newDict)
-            Console.WriteLine("{0}: {1}", entry.Key, entry.Value);
-
-        Console.WriteLine("-----");
-
-        foreach (KeyValuePair<string, string> entry in myDict)
+        foreach (KeyValuePair<string, int> entry in newDict)
             Console.WriteLine("{0}: {1}", entry.Key, entry.Value);
     }
 }
