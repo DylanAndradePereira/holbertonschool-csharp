@@ -12,12 +12,17 @@ class Dictionary
             if (entry.Key == key)
             {
                 alreadyExist = true;
+
+                if (entry.Value)
+                {
+                    myDict[Key] = value;
+                }
             }
         }
 
         if (!alreadyExist)
         {
-         myDict.Add(key,value); 
+            myDict.Add(key,value); 
          
         }
 
