@@ -1,30 +1,22 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 
-class List
+public class Array
 {
-    public static List<int> CreatePrint(int size)
+    public static int MaxInteger(List<int> myList)
     {
-        int i;
+        int i = 0;
 
-        if (size < 0)
+        myList.ForEach(delegate(int item))
         {
-            Console.WriteLine("Size cannot be negative");
-            return null;
-        }
-
-        List<int> my_List = new List<int>();
-
-        for (i = 0; i < size; i++)
-        {
-            my_List.Add(i);
-            Console.Write(i);
-            if (i < size - 1)
+            
+            if (item > i)
             {
-                Console.Write(' ');
+                i = item;
             }
+
         }
-        Console.WriteLine();
-        return my_List;
+
+        return i;
     }
 }

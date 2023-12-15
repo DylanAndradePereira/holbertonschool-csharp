@@ -7,7 +7,7 @@ public class Array
     {
         int i = 0;
 
-        myList.ForEach(delegate(int item) {
+        myList.ForEach(delegate(int item))
         {
             
             if (item > i)

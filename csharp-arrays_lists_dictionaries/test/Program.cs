@@ -1,19 +1,12 @@
-﻿class Program
+﻿using System;
+using System.Collections.Generic;
+
+class Program
 {
     static void Main(string[] args)
     {
-        List<int> newList;
+        List<int> myList = new List<int>() {98, -10, 1024, -727, -98, 0, 3200, 972, 12, 50, 8};
 
-        newList = List.CreatePrint(10);
-        Console.WriteLine("List Length: " + newList.Count);
-        Console.WriteLine("----------------");
-        newList = List.CreatePrint(16);
-        Console.WriteLine("List Length: " + newList.Count);
-        Console.WriteLine("----------------");
-        newList = List.CreatePrint(0);
-        Console.WriteLine("List Length: " + newList.Count);
-        Console.WriteLine("----------------");
-        newList = List.CreatePrint(1);
-        Console.WriteLine("List Length: " + newList.Count);        
+        Console.WriteLine("Max: " + List.MaxInteger(myList));
     }
 }
