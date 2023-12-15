@@ -13,9 +13,9 @@ class Dictionary
             {
                 alreadyExist = true;
 
-                if (entry.Value)
+                if (entry.Value != value)
                 {
-                    myDict[Key] = value;
+                    myDict[key] = value;
                 }
             }
         }
