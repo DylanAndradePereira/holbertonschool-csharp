@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "3tMInuPDzn/jOkaIS1czqC0pAczX6AJNSK0UM57EJkYq3QDkmviBWVDAc8OYOEMVqGcxy1lgvSQRv826WP/Ljg==",
+  "success": true,
+  "projectFilePath": "/home/ricardo1470/holbertonschool-csharp/0x07-csharp-tdd/0-add/MyMath/MyMath.csproj",
+  "expectedPackageFiles": [
+    "/home/ricardo1470/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/home/ricardo1470/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
