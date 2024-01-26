@@ -6,13 +6,13 @@ class Obj
     public static bool IsOfTypeInt(object obj)   // method
     {
 
-        if (object ==typeof(int))
+        if (obj.GetType() == typeof(int))
         {
             return true;
-        }else
-        {
-            return false;
         }
+        
+        return false;
+        
     }
 
 }
