@@ -3,10 +3,10 @@ class Obj
 {
     // Class Obj
     
-    public static bool IsInstanceOfArray(object obj)   // method
+    public static bool IsOnlyASubclass(Type derivedType, Type baseType)   // method
     {
 
-        if (obj.GetType().IsArray)
+        if (obj.GetType() == typeof(baseType))
         {
             return true;
         }
