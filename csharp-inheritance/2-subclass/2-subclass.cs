@@ -6,7 +6,7 @@ class Obj
     public static bool IsOnlyASubclass(Type derivedType, Type baseType)   // method
     {
 
-        if (obj.GetType() == typeof(baseType))
+        if (derivedType.IsSubclassOf(baseType))
         {
             return true;
         }
