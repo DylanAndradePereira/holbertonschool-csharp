@@ -1,4 +1,9 @@
-﻿class Dog : Animal
+﻿
+class Animal
+{
+    // Empty class
+}
+class Dog : Animal
 {
     // Empty class
 }
