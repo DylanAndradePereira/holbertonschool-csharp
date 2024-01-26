@@ -1,4 +1,5 @@
 ﻿// The class
+using System;
 
 class Obj
 {
