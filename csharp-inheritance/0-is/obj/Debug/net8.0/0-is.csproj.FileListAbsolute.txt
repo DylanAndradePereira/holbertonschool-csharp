@@ -1,0 +1,5 @@
+C:\Users\Dylan\OneDrive\Bureau\projet ARVR\holbertonschool-csharp\csharp-inheritance\0-is\obj\Debug\net8.0\0-is.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dylan\OneDrive\Bureau\projet ARVR\holbertonschool-csharp\csharp-inheritance\0-is\obj\Debug\net8.0\0-is.AssemblyInfoInputs.cache
+C:\Users\Dylan\OneDrive\Bureau\projet ARVR\holbertonschool-csharp\csharp-inheritance\0-is\obj\Debug\net8.0\0-is.AssemblyInfo.cs
+C:\Users\Dylan\OneDrive\Bureau\projet ARVR\holbertonschool-csharp\csharp-inheritance\0-is\obj\Debug\net8.0\0-is.csproj.CoreCompileInputs.cache
+C:\Users\Dylan\OneDrive\Bureau\projet ARVR\holbertonschool-csharp\csharp-inheritance\0-is\obj\Debug\net8.0\0-is.sourcelink.json

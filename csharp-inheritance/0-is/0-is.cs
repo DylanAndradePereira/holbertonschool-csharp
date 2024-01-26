@@ -5,7 +5,8 @@ class Obj
     
     public static bool IsOfTypeInt(object obj)   // method
     {
-        if (object is int)
+
+        if (object ==typeof(int))
         {
             return true;
         }else
@@ -13,5 +14,5 @@ class Obj
             return false;
         }
     }
-    
+
 }
