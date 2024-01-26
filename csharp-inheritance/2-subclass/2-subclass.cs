@@ -1,5 +1,5 @@
 ﻿// The class
-using System.Diagnostics;
+
 class Obj
 {
     // Class Obj
