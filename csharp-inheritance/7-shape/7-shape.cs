@@ -60,6 +60,6 @@ class Rectangle : Shape {
 
     public override string ToString()
     {
-        return (this.width / this.height);
+       Console.Write(this.width / this.height);
     }
 }
