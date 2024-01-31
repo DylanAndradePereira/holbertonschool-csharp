@@ -60,6 +60,6 @@ class Rectangle : Shape {
 
     public override string ToString()
     {
-        return ([Rectangle] <width> / <height>);
+        return (this.width> / this.height);
     }
 }
