@@ -67,7 +67,6 @@ class Rectangle : Shape {
 
 class Square : Rectangle {
     private int size;
-    public int Size;
 
     public int Size {
         get
